@@ -1,5 +1,5 @@
-Func _setBackgroundColor()
-    GUISetBkColor( $vOverlayColor, $hGui )
+Func _setBackgroundColor( $vColor )
+    GUISetBkColor( $vColor, $hGui )
 EndFunc
 
 Func _setTransparency()

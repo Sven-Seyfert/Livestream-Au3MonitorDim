@@ -39,10 +39,11 @@ To be defined [...]
 
 ## Keyboard shortcuts
 
-| Action | Shortcut |
-| :------| :------- |
-| ...    | ...      |
-| ...    | ...      |
+| Action  | Shortcut         |
+| :------ | :-------         |
+| Lighten | `NumpadAdd`      |
+| Darken  | `NumpadSub`      |
+| Reset   | `NumpadMultiply` |
 
 ## Contributing
 

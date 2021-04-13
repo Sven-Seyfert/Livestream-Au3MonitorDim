@@ -1,9 +1,8 @@
 Global $hGui
 Global $cTransparencyLabel
 
-Global $vLight        = 0xFFFFFF
-Global $vDark         = 0x000000
-Global $vOverlayColor = $vLight
+Global $vLightColor   = 0xFFFFFF
+Global $vDarkColor    = 0x000000
 
 Global $iTransparency = 0
 Global $iMin          = 0

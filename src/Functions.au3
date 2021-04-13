@@ -1,17 +1,16 @@
-Func _increase()
+Func _increaseTransparency()
     $iTransparency += $iFactor
 EndFunc
 
-Func _decrease()
+Func _decreaseTransparency()
     $iTransparency -= $iFactor
 EndFunc
 
 Func _lighten()
-    _increase()
+    _increaseTransparency()
 
     If $iTransparency >= $iMin And $iTransparency <= $iMax Then
-        $vOverlayColor = $vLight
-        _setBackgroundColor()
+        _setBackgroundColor( $vLightColor )
         _setTransparency()
     EndIf
 
@@ -25,19 +24,23 @@ Func _lighten()
 EndFunc
 
 Func _darken()
-    _decrease()
+    _decreaseTransparency()
 
     If $iTransparency >= $iMin And $iTransparency <= $iMax Then
         _setTransparency()
     EndIf
 
     If $iTransparency <= $iMin And $iTransparency >= -$iMax Then
-        $vOverlayColor = $vDark
-        _setBackgroundColor()
+        _setBackgroundColor( $vDarkColor )
         _setTransparency()
     EndIf
 
     If $iTransparency < -$iMax Then
         $iTransparency = -$iMax
     EndIf
+EndFunc
+
+Func _reset()
+    $iTransparency = 0
+    _setTransparency()
 EndFunc

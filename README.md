@@ -40,7 +40,7 @@ To be defined [...]
 ## Keyboard shortcuts
 
 | Action  | Shortcut         |
-| :------ | :-------         |
+| :---    | :---             |
 | Lighten | `NumpadAdd`      |
 | Darken  | `NumpadSub`      |
 | Reset   | `NumpadMultiply` |

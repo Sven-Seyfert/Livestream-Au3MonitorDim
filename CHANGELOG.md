@@ -5,17 +5,12 @@ All notable changes to "Livestream-Au3MonitorDim" will be documented in this fil
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
-
-- Nothing yet.
-
-## [1.0.0] - 2021-07-20
+## [1.0.0] - 2021-10-21
 
 ### Added
 
 - All repository data and dependencies.
 
-[unreleased]: https://github.com/Sven-Seyfert/Livestream-Au3MonitorDim/compare/v1.0.0...HEAD
 [1.0.0]: https://github.com/Sven-Seyfert/Livestream-Au3MonitorDim/releases/tag/v1.0.0
 
 ---

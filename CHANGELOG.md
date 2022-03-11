@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Go to [legend](#legend---types-of-changes) for further information about the types of changes.
 
+## [Unreleased]
+
 ## [1.2.0] - 2022-02-11
 
 ### Added
@@ -46,6 +48,7 @@ Go to [legend](#legend---types-of-changes) for further information about the typ
 
 - Remove word "extension" in CHANGELOG.md file.
 
+[Unreleased]: https://github.com/Sven-Seyfert/Livestream-Au3MonitorDim/compare/v1.2.0...HEAD
 [1.2.0]: https://github.com/Sven-Seyfert/Livestream-Au3MonitorDim/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/Sven-Seyfert/Livestream-Au3MonitorDim/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/Sven-Seyfert/Livestream-Au3MonitorDim/releases/tag/v1.0.0

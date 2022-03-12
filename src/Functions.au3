@@ -1,21 +1,21 @@
-Func _increaseTransparency()
+Func _IncreaseTransparency()
     $iTransparency += $iFactor
 EndFunc
 
-Func _decreaseTransparency()
+Func _DecreaseTransparency()
     $iTransparency -= $iFactor
 EndFunc
 
-Func _lighten()
-    _increaseTransparency()
+Func _Lighten()
+    _IncreaseTransparency()
 
     If $iTransparency >= $iMin And $iTransparency <= $iMax Then
-        _setBackgroundColor( $vLightColor )
-        _setTransparency()
+        _SetBackgroundColor($vLightColor)
+        _SetTransparency()
     EndIf
 
     If $iTransparency <= $iMin And $iTransparency >= -$iMax Then
-        _setTransparency()
+        _SetTransparency()
     EndIf
 
     If $iTransparency > $iMax Then
@@ -23,16 +23,16 @@ Func _lighten()
     EndIf
 EndFunc
 
-Func _darken()
-    _decreaseTransparency()
+Func _Darken()
+    _DecreaseTransparency()
 
     If $iTransparency >= $iMin And $iTransparency <= $iMax Then
-        _setTransparency()
+        _SetTransparency()
     EndIf
 
     If $iTransparency <= $iMin And $iTransparency >= -$iMax Then
-        _setBackgroundColor( $vDarkColor )
-        _setTransparency()
+        _SetBackgroundColor($vDarkColor)
+        _SetTransparency()
     EndIf
 
     If $iTransparency < -$iMax Then
@@ -40,7 +40,7 @@ Func _darken()
     EndIf
 EndFunc
 
-Func _reset()
+Func _Reset()
     $iTransparency = 0
-    _setTransparency()
+    _SetTransparency()
 EndFunc
